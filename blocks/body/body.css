@@ -1,0 +1,8 @@
+.body {
+  font-family: 'Inter', sans-serif;
+  background-color: #2a2c2f;
+  color: #fff;
+  text-rendering: optimizeLegibility;
+  display: flex;
+  justify-content: center;
+}
