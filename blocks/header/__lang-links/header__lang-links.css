@@ -1,9 +1,7 @@
-@import url(../__lang-link/header__lang-link.css);
-
 .header__lang-links {
   list-style: none;
   display: flex;
-  align-items: center;
+  align-self: flex-end;
   margin: 0;
   padding-left: 0;
 }

@@ -1,8 +1,3 @@
-@import url(__links/footer__links.css);
-@import url(__link/footer__link.css);
-@import url(__link/_padding/footer__link_padding.css);
-@import url(__copyright/footer__copyright.css);
-
 .footer {
   width: 1184px;
   display: flex;
