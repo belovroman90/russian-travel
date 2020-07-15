@@ -6,3 +6,9 @@
   font-weight: normal;
   border-bottom: 1.3px #fff solid;
 }
+
+@media screen and (max-width: 320px) {
+  .place__link {
+    font-size: 0;
+  }
+}

@@ -6,3 +6,27 @@
   line-height: 76px;
   font-weight: 900;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__title {
+    width: 440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    width: 330px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    width: 90vw;
+    justify-self: center;
+    padding-bottom: 32px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

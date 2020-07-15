@@ -10,3 +10,27 @@
 .place__paragraph:last-of-type {
   padding-bottom: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    width: 352px;
+    font-size: 16px;
+    line-height: 27px;
+    padding-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    width: 90vw;
+    justify-self: center;
+    font-size: 16px;
+    line-height: 27px;
+  }
+}

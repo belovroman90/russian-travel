@@ -4,3 +4,9 @@
   margin: 0;
   align-self: center;
 }
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    display: none;
+  }
+}

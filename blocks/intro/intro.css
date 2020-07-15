@@ -1,4 +1,24 @@
 .intro {
   width: 984px;
-  padding: 92px 0;
+  padding-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: 90.625vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 93.75vw;
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    width: 90vw;
+    padding-bottom: 64px;
+  }
 }
