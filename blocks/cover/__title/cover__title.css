@@ -1,20 +1,92 @@
 .cover__title {
-  width: 560px;
+  width: 47.29%;
   text-align: center;
   margin: 0;
   padding-bottom: 32px;
   position: relative;
   z-index: 2;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 1;
   font-weight: 900;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    width: 54.68%;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .cover__title {
+    width: 61%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .cover__title {
+    width: 69%;
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 732px) {
+  .cover__title {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 696px) {
+  .cover__title {
+    width: 68%;
+    font-size: 60px;
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 618px) {
+  .cover__title {
+    width: 73%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .cover__title {
+    font-size: 56px;
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .cover__title {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 526px) {
+  .cover__title {
+    width: 84%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .cover__title {
+    width: 68%;
+    font-size: 40px;
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .cover__title {
+    width: 77%;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .cover__title {
-    width: 90vw;
+    width: 79vw;
     font-size: 32px;
-    line-height: 35px;
+    line-height: 1;
     padding-bottom: 16px;
   }
 }

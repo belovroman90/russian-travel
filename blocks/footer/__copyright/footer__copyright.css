@@ -1,17 +1,31 @@
 .footer__copyright {
   margin: 0;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1;
   font-weight: normal;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__copyright {
+    line-height: 0px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .footer__copyright {
-    line-height: 0px;
+    line-height: 2;
   }
+}
+
+@media screen and (max-width: 650px) {
+  .footer__copyright {
+    align-self: flex-end;
+  }
+}
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
     line-height: 14px;
+    align-self: stretch;
   }
 }

@@ -2,13 +2,14 @@
   color: #fff;
   text-decoration: none;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.1;
   font-weight: normal;
   border-bottom: 1.3px #fff solid;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 460px) {
   .place__link {
-    font-size: 0;
+    font-size: 14px;
+    line-height: 1.1;
   }
 }
