@@ -21,5 +21,6 @@
   .place__paragraph {
     max-width: 90%;
     justify-self: center;
+    line-height: 1.6;
   }
 }
