@@ -7,6 +7,10 @@
   border-bottom: 1.3px #fff solid;
 }
 
+.place__link:hover {
+  border: none;
+}
+
 @media screen and (max-width: 460px) {
   .place__link {
     font-size: 14px;

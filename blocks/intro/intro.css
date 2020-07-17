@@ -3,22 +3,28 @@
   padding-bottom: 92px;
 }
 
+@media screen and (max-width: 1280px) {
+  .intro {
+    max-width: 76.875vw;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .intro {
-    width: 90.625vw;
+    max-width: 90.625vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    width: 93.75vw;
+    max-width: 93.75vw;
     padding-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
-    width: 90vw;
+    max-width: 90vw;
     padding-bottom: 64px;
   }
 }

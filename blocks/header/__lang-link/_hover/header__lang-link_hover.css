@@ -1,0 +1,7 @@
+.header__lang-link_hover {
+  border-bottom: 1.3px solid #fff;
+}
+
+.header__lang-link_hover:hover {
+  border-bottom: none;
+}

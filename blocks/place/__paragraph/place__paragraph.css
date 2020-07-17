@@ -1,5 +1,5 @@
 .place__paragraph {
-  width: 100%;
+  max-width: 100%;
   margin: 0;
   padding-bottom: 24px;
   font-size: 18px;
@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 320px) {
   .place__paragraph {
-    width: 90%;
+    max-width: 90%;
     justify-self: center;
   }
 }
